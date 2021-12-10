@@ -1,0 +1,24 @@
+{
+  "name": "rescript-react-starter-kit",
+  "version": "0.7.2",
+  "description": "A starter kit for ReScript React applications",
+  "main": "src/App.bs.js",
+  "repository": "git@github.com:bloodyowl/rescript-react-starter-kit.git",
+  "author": "bloodyowl <bloodyowl@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "rescript build -with-deps -w -ws 9999",
+    "build": "rescript",
+    "clean": "rescript clean"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "rescript-js": "^0.5.6"
+  }
+}

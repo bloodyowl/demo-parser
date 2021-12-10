@@ -1,0 +1,21 @@
+{
+  "name": "rescript-react-starter-kit",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".mjs",
+  "bs-dependencies": ["@ryyppy/rescript-promise", "rescript-js"],
+  "bsc-flags": ["-open Belt", "-open ReScriptJs__Js"]
+}
